@@ -11,7 +11,7 @@ $nsm-media: 768px;
 $nxs-media: 451px;
 $nxxs-media: 351px;
 
-@mixin nlgx {
+@mixin nlgx { 
   @media all and (max-width: #{$nlgx-media}) {
     @content;
   }
